@@ -92,11 +92,28 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# personal
+#
+# short command
 alias v='nvim'
 alias r='ranger'
 alias o='sh ~/study/shell/o.sh'
+
+# shell
 alias baike='node ~/study/js/baike/baike.js'
+
+# tmux
 alias tmuxa='tmux attach-session -t'
 alias tmuxn='tmux new -t'
-alias appweb='~/work/appweb'
-alias webm='~/work/webmanager2.0-website'
+
+# dir
+# alias appweb='~/work/appweb'
+# alias webm='~/work/webmanager2.0-website'
+
+# svn
+alias ss='svn status'
+alias saa='svn add --force * --auto-props --parents --depth infinity -q'
+alias scm='svn commit -m '
+alias sup='svn update'
+alias srv='svn revert --recursive'
